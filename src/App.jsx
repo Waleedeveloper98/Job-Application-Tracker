@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 // Component imports
 import Header from "./components/Header";
-import TopBar from "./components/Topbar";
+import TopBar from "./components/TopBar";
 import JobCard from "./components/JobCard";
 import Title from "./components/Title";
 import JobForm from "./components/JobForm";
