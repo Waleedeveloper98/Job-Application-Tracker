@@ -1,12 +1,33 @@
-# React + Vite
+# 🗂️ Job Application Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React.js project to help you **track your job applications**. You can add, edit, delete, filter, and sort job entries — and all your data is saved in **localStorage**, so nothing gets lost on refresh!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ Add new job applications
+- ✏️ Edit or delete existing entries
+- 🎯 Filter by status: Interview, Rejected, Selected
+- 📅 Sort by applied date (Latest or Oldest first)
+- 💾 Save all data in `localStorage` so it stays after refresh
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Built With
+
+- React.js (Functional Components)
+- React Hook Form
+- Tailwind CSS
+- useState & useEffect
+- LocalStorage
+
+---
+
+## 📦 How to Run It Locally
+
+```bash
+git clone https://github.com/your-username/job-application-tracker.git
+cd job-application-tracker
+npm install
+npm start
